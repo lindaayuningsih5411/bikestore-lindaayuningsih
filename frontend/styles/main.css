@@ -1,0 +1,465 @@
+.navbar-brand{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.nav-item
+{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 80px;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 300;
+    color: #FCBB3A !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #FCBB3A !important;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+}
+.hero-section h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight:0;
+    font-size: 55px;
+}
+
+.hero-section p {
+    font-family: Poppins;
+font-weight: 300;
+font-size: 23px;
+}
+
+.hero-section .btn-cta {
+    margin-top: 50px;
+}
+
+.hero-section .btn-cta img {
+width: 75px;
+}
+
+.hero-section .btn {
+background: #FFBD37;
+border-radius: 0px 18px 18px 0px;
+margin-left: 50px;
+}
+/* Tutup Hero Section */
+
+/* Section-title */
+
+.section-title {
+    border-bottom: 3px solid #FCBB3A;
+    width: 7%;
+}
+
+/* Categories */
+
+.tag {
+z-index:3;
+background-color: #FCBB3A;
+bottom: 0;
+padding: 0.25rem 1.25rem;
+position: absolute;
+width: 100px;
+height: 30px;
+left:15px;
+top: 245px;
+    border-radius: 0px 18px 0px 0px;
+    min-height: 0px;
+}
+
+.tag1 {
+    z-index:3;
+    background-color: #FCBB3A;
+    padding: 0.25rem 1.25rem;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left:-35px;
+    top: 90px;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+        border-radius: 0px 18px 0px 4px;
+        min-height: 0px;
+    }
+
+.component-categories{
+margin-bottom:-50px;
+}
+
+.tag span {
+    font-family: Poppions;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+}
+
+.categories-thumbnail {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail-small {
+width: 500px;
+height: 215px;
+left: -50px;
+position: relative
+}
+
+.categories-thumbnail:hover .categories-img {
+transform: scale(1.1);
+}
+
+.categories-thumbnail-small:hover .categories-img {
+transform: scale(1.1);
+}
+    
+.categories-img {
+    width: 55%;
+    height: 55%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    transition: all 0.3s ease;
+}
+
+/* Tutup Categories */
+
+/* Popular Product */
+.popular-products {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    background-color:rgba(23, 25, 56, 0.06);
+    ;
+}.component-products {
+margin-top: 40px;
+margin-bottom:40px;
+background: #ffffff;
+border-radius: 10px;
+border: #000000;
+padding-bottom: 100px;
+transition: all 0.3s ease-in-out;
+}
+
+.component-products:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.products-img {
+padding: 1rem;
+border-radius: 30px;
+background: #f6fafd;
+transition: all 0.3s ease;
+}
+
+.products-text {
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.products-price {
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+
+color: #FFBD37;
+}
+
+/* Tutup Popular Product */
+
+/* Testimonial */
+.testimonial {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.testimonial-img {
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 25px;
+    top: -10px;
+    margin: 35px 0px 0px 35px;
+}
+
+.stars {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: -10px;
+    top: 150px;
+}
+
+.testimonial-frame {
+    position: absolute;
+    width: 385px;
+    height: 600px;
+    left: 30px;
+    top: 0px;
+    
+}
+
+.testimonial-text {
+margin-top: 300px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300px;
+font-size: 38px;
+line-height: 40px;
+color: #152C58;
+}
+
+.testimonial-name {
+font-family: 'Poppins';
+font-style: normal;
+left: 200px;
+font-weight: 300px;
+font-size: 20px;
+line-height: 40px;
+}
+
+.btn-testimonial {
+    background: #FCBB3A;
+}
+
+.btn-testimonial:hover {
+box-shadow: 0px 8px 15px rgba(23, 25, 56, 0.06);
+border-radius: 4px;
+}
+/* Tutup Testimonial */
+
+/* Footer */
+.footer {
+margin-top: 200px;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #f5f4f5;
+}
+
+.footer h2 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.footer h5 {
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 18px;
+
+color: #152C58;
+}
+
+.footer p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    color: #808080;
+}
+
+.footer-small {
+background-color: #171938;
+text-align: center;
+}
+
+.footer-small p {
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+margin-top: 30px;
+color: #ffffff
+}
+
+.footer-small a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FCBB3A;
+    text-decoration: none;
+}
+
+
+
+/* Tutup Footer */
+
+.nav-link23 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+    text-align:right;
+    color: black !important;
+}
+
+.booking-bike {
+    padding-bottom: 200px;
+    padding-top: 10px;
+    left: 50px;
+    background-color:#ffffff(23, 25, 56, 0.06);
+    ;
+}
+
+
+.harga {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    
+    color: #3BB497;
+}
+
+.navbar-brand1{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+
+.bok-info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #0C0995;    
+}
+
+
+.bok-info23 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: rgba(74, 73, 73, 0.75);
+    ;    
+}
+
+.tabel {
+    margin-top: 50px;
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 20px;
+color: #000000; 
+}
+
+.montain {
+    margin-top: 300pxpx;
+    font-family: 'Poppins';
+font-size: 25px;
+color: #000000;
+text-align: center;
+}
+
+
+.nav-link25 {
+    margin-top: 400px;
+    margin-bottom: 400px;
+    font-family: 'Poppins';
+font-weight: 600px;
+font-size: 25px;
+line-height: 10px;
+
+    text-align:center;
+    color: black !important;
+}
+
+.transfer {
+    font-family: 'Poppins';
+font-weight: 400px;
+font-size: 23px;
+color:#000000;
+}
+
+.bca-rek {
+    font-family: 'Poppins';
+    margin-bottom: 50px;
+    font-weight: 200px;
+    font-size: 15px;
+    color:#000000;
+}
+
+.tabel12 {
+    left: -5000px;
+    margin-top: 50px;
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 20px;
+color: #000000; 
+}
+
+.order-finish {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: black;
+    ;    
+}
+
+
+.finish-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: black;
+    ;    
+}
+
+.tabel-profil {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        color: black;
+}
+
+.profil12{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: black;
+}
